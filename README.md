@@ -1,12 +1,6 @@
 # Mean Field Game EA Project
 
-This code simulates the McKean-Vlasov process obtained after solving the Mean Field Game equation:
-
-$$
-X_t = X_0 + \hat{\mathbb{E}}^{\mu}\left[\int_0^{t} \pi(s, X_s, \hat{X_s}) \, d\hat{X_s}\right]
-- \int_0^{t} \hat{\mathbb{E}}^{\mu}\left[\pi(s, \hat{X_s}, X_s)\right] \, dX_s
-+ \int_0^{t} b(s, X_s, \mu_s)\,ds + \int_0^{t} \sigma(s, X_s, \mu_s) \, dW_s
-$$
+This code simulates the McKean-Vlasov process obtained after solving the Mean Field Game equation.
 
 A more complete overview about the derivation of the solution can be found on the project report.
 
